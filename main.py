@@ -6,6 +6,7 @@ from lib.config import NAME_MIN_LENGTH, NAME_MAX_LENGTH, EMAIL_MIN_LENGTH, EMAIL
 # Ensure DB schema exists before querying
 ensure_tables()
 
+# User Creation Flow
 is_valid = False
 
 while not is_valid:
@@ -18,6 +19,8 @@ while not is_valid:
         print("Invalid fields. Try again.")
 
 create_new_user(name, email)
+
+# Display all users
 
 print("")
 print("Getting all users: ")

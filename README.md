@@ -2,5 +2,5 @@
 
 Todo
 
-☐ Delete user
-☐ Update user
+- ☐ Delete user
+- ☐ Update user
